@@ -59,7 +59,7 @@ def compile(inputfile=None,data=None, o=None,
 if __name__ == "__main__":
 	import argparse
 
-	arg_parser = argparse.ArgumentParser(description='compile a regular expression into code that can be executed by re2coprocessor(https://github.com/DanieleParravicini/regex_coprocessor).')
+	arg_parser = argparse.ArgumentParser(description='compile a regular expression into code that can be executed by re2coprocessor(https://github.com/necst/cicero).')
 	arg_parser.add_argument('inputfile'		    , type=str, help='input file containing the regular expression.'																			, default=None, nargs='?')
 	arg_parser.add_argument('-data'		    	, type=str, help='allows to pass the input string representing the regular expression directly via parameter .'								, default=None, nargs='?')
 	arg_parser.add_argument('-no_postfix'		, 			help='requires that regular expression ends with the end of the string. Equivalent to <your_regex>$'											    , default=False, action='store_true')
