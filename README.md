@@ -1,5 +1,5 @@
 # re2compiler
-A compiler for a [regex coprocessor, i.e., CICERO](https://github.com/necst/cicero)
+A compiler for [CICERO](https://github.com/necst/cicero)
 
 ---------------------------------------
 # How to start?
